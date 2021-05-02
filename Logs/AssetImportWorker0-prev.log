@@ -1,0 +1,131 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.3f1 (8ff31bc5bf5b) revision 9433883'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 18363.1440; Version 1909; 64bit' Language: 'ru' Physical Memory: 16352 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\UNITYEDITOR\2020.2.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/GAME/Game_Stas_Timofey_Leha
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51207
+Successfully changed project path to: E:/GAME/Game_Stas_Timofey_Leha
+E:/GAME/Game_Stas_Timofey_Leha
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 62.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.3f1 (8ff31bc5bf5b)
+[Subsystems] Discovering subsystems at path D:/UNITYEDITOR/2020.2.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/GAME/Game_Stas_Timofey_Leha/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.6611
+Initialize mono
+Mono path[0] = 'D:/UNITYEDITOR/2020.2.3f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UNITYEDITOR/2020.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/UNITYEDITOR/2020.2.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UNITYEDITOR/2020.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001899 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 59.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.077 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003227 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 63.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.676 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.2 MB.
+System memory in use after: 89.2 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2381.
+Total: 2.433000 ms (FindLiveObjects: 0.204500 ms CreateObjectMapping: 0.087300 ms MarkObjects: 1.926100 ms  DeleteObjects: 0.213700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Sounds
+  artifactKey: Guid(376de49f986c1ee46bf0706fee5f2046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds using Guid(376de49f986c1ee46bf0706fee5f2046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829b893ed92c38bfe5f5b38e27fcfb73') in 0.015555 seconds
+  Import took 0.019464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.028580 seconds.
+  path: Assets/Sounds/1 level.mp3
+  artifactKey: Guid(197d86d440ebc5b4aa86190d2fda8a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/1 level.mp3 using Guid(197d86d440ebc5b4aa86190d2fda8a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96106733c093bf3aebe4775985d56be5') in 0.162472 seconds
+  Import took 0.166222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.350972 seconds.
+  path: Assets/Sounds/Dirt
+  artifactKey: Guid(86e7b6b0a45b17a428ebabae3647330e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Dirt using Guid(86e7b6b0a45b17a428ebabae3647330e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917ceae49fffb06626560c52e6104a72') in 0.003151 seconds
+  Import took 0.008231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.152415 seconds.
+  path: Assets/Sounds/Dirt/Landing.mp3
+  artifactKey: Guid(59aabdb322f2d6149b68dee7c9919114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Dirt/Landing.mp3 using Guid(59aabdb322f2d6149b68dee7c9919114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d6a26a98e6d7705981427110c60159') in 0.013993 seconds
+  Import took 0.018169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Sounds/Dirt/Step 3.mp3
+  artifactKey: Guid(e36db63ef3c47eb408feb5333fc44e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Dirt/Step 3.mp3 using Guid(e36db63ef3c47eb408feb5333fc44e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f61d0b6bde67718b70a65546c096a74') in 0.011455 seconds
+  Import took 0.015230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Sounds/Dirt/Step.mp3
+  artifactKey: Guid(aab407f995c7c3c4f93c414933d72821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Dirt/Step.mp3 using Guid(aab407f995c7c3c4f93c414933d72821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2ddf609101bd210a25a51294bc0897') in 0.014441 seconds
+  Import took 0.017961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Sounds/Dirt/Step 2.mp3
+  artifactKey: Guid(b36dea9ae4b5c9348bc736b925eba818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Dirt/Step 2.mp3 using Guid(b36dea9ae4b5c9348bc736b925eba818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512356aff6115b8147dcff1b7eabda98') in 0.011351 seconds
+  Import took 0.015152 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
