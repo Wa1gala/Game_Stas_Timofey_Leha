@@ -15,11 +15,11 @@ C:/The Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51481
+51092
 Successfully changed project path to: C:/The Game
 C:/The Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 32.67 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 39.00 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.3f1 (8ff31bc5bf5b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Resources/UnitySubsystems
@@ -35,65 +35,209 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001682 seconds.
+Registered in 0.001210 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 33.24 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 34.28 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.149 seconds
+- Completed reload, in  1.272 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000669 seconds.
+Registered in 0.000748 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 33.35 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 33.88 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.714 seconds
+- Completed reload, in  0.728 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1940 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.2 MB.
+System memory in use before: 89.3 MB.
 System memory in use after: 89.2 MB.
 
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2381.
-Total: 1.946200 ms (FindLiveObjects: 0.210300 ms CreateObjectMapping: 0.045800 ms MarkObjects: 1.537700 ms  DeleteObjects: 0.151600 ms)
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2382.
+Total: 3.199800 ms (FindLiveObjects: 0.555600 ms CreateObjectMapping: 0.064600 ms MarkObjects: 2.419100 ms  DeleteObjects: 0.158000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Tiles/Platforms.png
-  artifactKey: Guid(f1ced99f25be8fd41b20c4711e43c696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Platforms.png using Guid(f1ced99f25be8fd41b20c4711e43c696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4169a7b5c12a12a0880e2425d4e1e025') in 0.130104 seconds
-  Import took 0.133526 seconds .
+  path: Assets/Меч красный 1.png
+  artifactKey: Guid(78f8f1ed0e968364fb937924a4260fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Меч красный 1.png using Guid(78f8f1ed0e968364fb937924a4260fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5e105fd51d9699006a3ec41c20d40b') in 0.071721 seconds
+  Import took 0.074863 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.161822 seconds.
-  path: Assets/Tiles/Platforms.png
-  artifactKey: Guid(f1ced99f25be8fd41b20c4711e43c696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Platforms.png using Guid(f1ced99f25be8fd41b20c4711e43c696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac24d9ef5746b5f101b84e8cdddeed9') in 0.074241 seconds
-  Import took 0.077609 seconds .
+  Time since last request: 0.715712 seconds.
+  path: Assets/Броня.png
+  artifactKey: Guid(432569eda18665e4196c7791d75135cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Броня.png using Guid(432569eda18665e4196c7791d75135cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca6fdb6818fc6c8c782eef24ed2229f') in 0.010197 seconds
+  Import took 0.013374 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.923025 seconds.
-  path: Assets/Tiles/Platforms.png
-  artifactKey: Guid(f1ced99f25be8fd41b20c4711e43c696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Platforms.png using Guid(f1ced99f25be8fd41b20c4711e43c696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c754e23162441f2fb19f790fd788b970') in 0.075521 seconds
-  Import took 0.079043 seconds .
+  Time since last request: 0.001140 seconds.
+  path: Assets/Броня.png
+  artifactKey: Guid(432569eda18665e4196c7791d75135cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Броня.png using Guid(432569eda18665e4196c7791d75135cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca6fdb6818fc6c8c782eef24ed2229f') in 0.005603 seconds
+  Import took 0.009112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.555464 seconds.
+  path: Assets/Нож.png
+  artifactKey: Guid(02e69d85992b3c34a8114ac13dadf592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Нож.png using Guid(02e69d85992b3c34a8114ac13dadf592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136d5c8816f54c249291a0bf1f402a27') in 0.010805 seconds
+  Import took 0.014940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004436 seconds.
+  path: Assets/Нож.png
+  artifactKey: Guid(02e69d85992b3c34a8114ac13dadf592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Нож.png using Guid(02e69d85992b3c34a8114ac13dadf592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136d5c8816f54c249291a0bf1f402a27') in 0.005173 seconds
+  Import took 0.008713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.460444 seconds.
+  path: Assets/Броня.png
+  artifactKey: Guid(432569eda18665e4196c7791d75135cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Броня.png using Guid(432569eda18665e4196c7791d75135cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430c577c0eea63196fdb5b6b1e5442b6') in 0.005252 seconds
+  Import took 0.008355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Нож.png
+  artifactKey: Guid(02e69d85992b3c34a8114ac13dadf592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Нож.png using Guid(02e69d85992b3c34a8114ac13dadf592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4890e0407e6b7aca0301299ea5344c3e') in 0.009287 seconds
+  Import took 0.012382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Меч красный 1.png
+  artifactKey: Guid(78f8f1ed0e968364fb937924a4260fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Меч красный 1.png using Guid(78f8f1ed0e968364fb937924a4260fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93b86cfd9080819d9b39ff010eab6f8') in 0.011413 seconds
+  Import took 0.014538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004705 seconds.
+  path: Assets/Меч красный 1.png
+  artifactKey: Guid(78f8f1ed0e968364fb937924a4260fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Меч красный 1.png using Guid(78f8f1ed0e968364fb937924a4260fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93b86cfd9080819d9b39ff010eab6f8') in 0.005487 seconds
+  Import took 0.008770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.951831 seconds.
+  path: Assets/Броня.png
+  artifactKey: Guid(432569eda18665e4196c7791d75135cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Броня.png using Guid(432569eda18665e4196c7791d75135cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c86699f47cf46aac04e1d238fe730b') in 0.005681 seconds
+  Import took 0.008586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Нож.png
+  artifactKey: Guid(02e69d85992b3c34a8114ac13dadf592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Нож.png using Guid(02e69d85992b3c34a8114ac13dadf592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddee283578e6a40f7ed15fbbb14fd292') in 0.010134 seconds
+  Import took 0.012846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Меч красный 1.png
+  artifactKey: Guid(78f8f1ed0e968364fb937924a4260fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Меч красный 1.png using Guid(78f8f1ed0e968364fb937924a4260fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04da5e79f75a193aa25cb64c3f93d74') in 0.005769 seconds
+  Import took 0.008471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.913177 seconds.
+  path: Assets/Броня.png
+  artifactKey: Guid(432569eda18665e4196c7791d75135cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Броня.png using Guid(432569eda18665e4196c7791d75135cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86638de1acfe0d59f4ea98a66c53750a') in 0.006995 seconds
+  Import took 0.010123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.594761 seconds.
+  path: Assets/Броня.png
+  artifactKey: Guid(432569eda18665e4196c7791d75135cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Броня.png using Guid(432569eda18665e4196c7791d75135cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7b96505f427424c9ca869f6967f4b0') in 0.005832 seconds
+  Import took 0.009377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.459683 seconds.
+  path: Assets/Меч красный 1.png
+  artifactKey: Guid(78f8f1ed0e968364fb937924a4260fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Меч красный 1.png using Guid(78f8f1ed0e968364fb937924a4260fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d44a23efcff7eb58acc5dd8fc981da') in 0.006112 seconds
+  Import took 0.009309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.321017 seconds.
+  path: Assets/Нож.png
+  artifactKey: Guid(02e69d85992b3c34a8114ac13dadf592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Нож.png using Guid(02e69d85992b3c34a8114ac13dadf592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c3be0e97b797db4495f49bfd5e8226') in 0.006428 seconds
+  Import took 0.009759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.947905 seconds.
+  path: Assets/Нож.png
+  artifactKey: Guid(02e69d85992b3c34a8114ac13dadf592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Нож.png using Guid(02e69d85992b3c34a8114ac13dadf592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b7f4c554ce3c3412b86be356274491') in 0.007667 seconds
+  Import took 0.010849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001897 seconds.
+  path: Assets/Нож.png
+  artifactKey: Guid(02e69d85992b3c34a8114ac13dadf592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Нож.png using Guid(02e69d85992b3c34a8114ac13dadf592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b7f4c554ce3c3412b86be356274491') in 0.007288 seconds
+  Import took 0.010270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 632.932075 seconds.
+  path: Assets/Меч синий 2.png
+  artifactKey: Guid(9480072913722784f84bf7dc8bebc650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Меч синий 2.png using Guid(9480072913722784f84bf7dc8bebc650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022def4f321e49fd70a578c978453f8c') in 0.013379 seconds
+  Import took 0.017035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.098632 seconds.
+  path: Assets/Меч синий 2.png
+  artifactKey: Guid(9480072913722784f84bf7dc8bebc650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Меч синий 2.png using Guid(9480072913722784f84bf7dc8bebc650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b4a0dc17c44747c4cfd7b7272cf434') in 0.011087 seconds
+  Import took 0.014721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002684 seconds.
+  path: Assets/Меч синий 2.png
+  artifactKey: Guid(9480072913722784f84bf7dc8bebc650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Меч синий 2.png using Guid(9480072913722784f84bf7dc8bebc650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b4a0dc17c44747c4cfd7b7272cf434') in 0.005971 seconds
+  Import took 0.008590 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

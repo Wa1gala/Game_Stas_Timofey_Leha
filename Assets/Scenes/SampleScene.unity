@@ -197,8 +197,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.012435913, y: -0.010556698}
-  m_Size: {x: 0.4060936, y: 1.0160823}
+  m_Offset: {x: -0.012435913, y: -0.0019488335}
+  m_Size: {x: 0.4060936, y: 0.99886656}
   m_Direction: 0
 --- !u!212 &172551586
 SpriteRenderer:
@@ -309,7 +309,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 360242316}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.02, y: -0.45, z: 0}
+  m_LocalPosition: {x: 0.01, y: -0.38, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 172551587}
@@ -342,7 +342,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 423482468}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.2079, y: 2.7316, z: 7.9842315}
+  m_LocalPosition: {x: -10.58, y: 2.69, z: 7.9842315}
   m_LocalScale: {x: 1.0013, y: 1.0288, z: 1}
   m_Children: []
   m_Father: {fileID: 1608219058}
@@ -409,7 +409,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 2
-      m_TileSpriteIndex: 3
+      m_TileSpriteIndex: 4
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -639,7 +639,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 1
-      m_TileSpriteIndex: 2
+      m_TileSpriteIndex: 3
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -662,12 +662,12 @@ Tilemap:
     m_Data: {fileID: 7193844817558614349, guid: f1ced99f25be8fd41b20c4711e43c696, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 54522180897507154, guid: f1ced99f25be8fd41b20c4711e43c696, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -871907234539676369, guid: f1ced99f25be8fd41b20c4711e43c696, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
   m_TileMatrixArray:
   - m_RefCount: 24
     m_Data:
@@ -828,7 +828,7 @@ Camera:
   far clip plane: 5000
   field of view: 60
   orthographic: 1
-  orthographic size: 2.41
+  orthographic size: 2.8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -852,7 +852,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.77, y: -0.33700004, z: -2}
+  m_LocalPosition: {x: 10.771674, y: -1.3098698, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1004,14 +1004,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd6043bde05a7fc4cba197d06915c1e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Damping: {x: 0.1, y: 0.99, z: 0.3}
-  ShoulderOffset: {x: 0.5, y: 0.96, z: 0}
-  VerticalArmLength: 0.4
+  Damping: {x: 0.1, y: 0.5, z: 0.3}
+  ShoulderOffset: {x: 0.5, y: -0.4, z: 0}
+  VerticalArmLength: 0.5
   CameraSide: 0.5
   CameraDistance: 2
   CameraCollisionFilter:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 0
   IgnoreTag: 
   CameraRadius: 0.2
 --- !u!114 &1287936135
@@ -1102,7 +1102,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1408308886}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.6524868, y: 2.49636, z: 7.9842315}
+  m_LocalPosition: {x: 0.6524868, y: -9.62, z: 7.9842315}
   m_LocalScale: {x: 1.9969581, y: 1.3987943, z: 1}
   m_Children: []
   m_Father: {fileID: 1608219058}
@@ -1148,7 +1148,7 @@ MonoBehaviour:
   m_Follow: {fileID: 172551587}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 2.41
+    OrthographicSize: 2.8
     NearClipPlane: 0.1
     FarClipPlane: 5000
     Dutch: 0
@@ -1169,7 +1169,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1549355191}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.77, y: -0.33700004, z: -2}
+  m_LocalPosition: {x: 10.77, y: -1.5970001, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1287936133}
@@ -1251,12 +1251,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 13.401917, y: 8.09632}
-      - {x: -11.04405, y: 7.9800577}
-      - {x: -11.137276, y: -1.4007093}
-      - {x: -3.715693, y: -1.4454229}
-      - {x: 6.0479875, y: -1.4242845}
-      - {x: 13.472203, y: -1.4544094}
+    - - {x: 14.703456, y: 8.066052}
+      - {x: -11.074222, y: 8.070574}
+      - {x: -11.046759, y: -1.461053}
+      - {x: -3.7458653, y: -1.5057676}
+      - {x: 11.34494, y: -1.4848208}
+      - {x: 14.681586, y: -1.4543142}
 --- !u!1 &1674848421
 GameObject:
   m_ObjectHideFlags: 0
