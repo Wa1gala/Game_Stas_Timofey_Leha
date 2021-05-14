@@ -40,6 +40,8 @@ public class BaseZombie : MonoBehaviour
 
     public Transform point; // Триггер НПС
     public Transform player; // Координаты игрока
+    public Sprite dead;
+    private Animator anim;
 
     bool moveingRight; // переключатель движения нпс вправо/влево
     bool chill = false; // переключает НПС в состояние патрулирования
@@ -53,6 +55,7 @@ public class BaseZombie : MonoBehaviour
     // Старт вызывается перед обновлением первого кадра
     void Start()
     {
+        anim = GetComponent<Animator>();
         // Устанавливаем значение player равным сущности с тэгом Player
         player = GameObject.FindGameObjectWithTag("Player").transform;
         //rb.AddForce(Vector3.up * 10f);
@@ -232,7 +235,15 @@ public class BaseZombie : MonoBehaviour
             //GUI.Label(new Rect(10, 10, 100, 20), "Hello World!");
             //Делаем её ложной, чтобы не дохнуть 1000+ раз в секунду, а только один раз.
             checkDie_bot = false;
+
+            BoxCollider2D col = GetComponent<BoxCollider2D>();
+            col.GetComponent<BoxCollider2D>();
+            col.enabled = false;
+
+            Rigidbody2D.Destroy(GetComponent<Rigidbody2D>());
+
             Debug.Log(myName + ": I am die...");
+            this.gameObject.GetComponent<SpriteRenderer>().sprite = dead;
         }
         //Debug.Log(myName + ": Die()_2: " + checkDie_bot);
     }

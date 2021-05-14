@@ -198,6 +198,11 @@ public class FlyEnemy : MonoBehaviour
             //GUI.Label(new Rect(10, 10, 100, 20), "Hello World!");
             //ƒелаем еЄ ложной, чтобы не дохнуть 1000+ раз в секунду, а только один раз.
             checkDie_bot = false;
+
+            BoxCollider2D col = GetComponent<BoxCollider2D>();
+            col.GetComponent<BoxCollider2D>();
+            col.enabled = false;
+
             Debug.Log(myName + ": I am die...");
             rigidbody2DFly.gravityScale = 1;
         }

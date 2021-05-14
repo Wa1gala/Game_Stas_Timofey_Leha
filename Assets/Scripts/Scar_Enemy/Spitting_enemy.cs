@@ -140,6 +140,13 @@ public class Spitting_enemy : MonoBehaviour
             //GUI.Label(new Rect(10, 10, 100, 20), "Hello World!");
             //ƒелаем еЄ ложной, чтобы не дохнуть 1000+ раз в секунду, а только один раз.
             checkDie_bot = false;
+
+            BoxCollider2D col = GetComponent<BoxCollider2D>();
+            col.GetComponent<BoxCollider2D>();
+            col.enabled = false;
+
+            Rigidbody2D.Destroy(GetComponent<Rigidbody2D>());
+
             Debug.Log(myName + ": I am die...");
         }
         //Debug.Log(myName + ": Die()_2: " + checkDie_bot);
