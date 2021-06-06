@@ -17,25 +17,45 @@ public class PlayerController : MonoBehaviour
     public float checkRadius;
     public LayerMask whatIsGround;
 
+    public static bool checkDie = true;
+    public static bool checkTurn = false;
+
     private Animator anim;
 
     private void Start()
     {
         anim = GetComponent<Animator>();
+
         rb = GetComponent<Rigidbody2D>();
     }
 
+    public static bool checkDieValue
+    {
+        get { return checkDie; }
+    }      
+    public static bool _checkTurn
+    {
+        get { return checkTurn; }
+    }  
+
     private void FixedUpdate()
     {
+        //float distance = speed * Time.deltaTime * Input.GetAxis("Horizontal");
+        //transform.Translate(Vector3.right * distance);
+
+
         moveInput = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
-        if (facingRight == false && moveInput > 0)
+        if(checkDieValue)
+            rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+        if (facingRight == false && moveInput > 0 && checkDieValue)
         {
             Flip();
+            checkTurn = false;
         }
-        else if (facingRight == true && moveInput < 0)
+        else if (facingRight == true && moveInput < 0 && checkDieValue)
         {
             Flip();
+            checkTurn = true;
         }
 
         if (moveInput == 0)
@@ -52,7 +72,7 @@ public class PlayerController : MonoBehaviour
     {
         isGrounde = Physics2D.OverlapCircle(feetPos.position, checkRadius, whatIsGround);
 
-        if (isGrounde == true && Input.GetKeyDown(KeyCode.Space))
+        if (isGrounde == true && Input.GetKeyDown(KeyCode.Space) && checkDieValue)
         {
             rb.velocity = Vector2.up * jumpForce;
             anim.SetTrigger("takeOf");
